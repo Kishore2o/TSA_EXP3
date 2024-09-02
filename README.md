@@ -11,6 +11,8 @@ type to fit the data.
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
 ### PROGRAM:
+## DEVELOPED BY : Kishore S
+## REG NO : 212222240050
 ```
 import numpy as np
 import pandas as pd
