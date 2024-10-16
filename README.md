@@ -20,8 +20,8 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
 # Load the data from the CSV file
-file_path = '/content/NFLX.csv'
-df = pd.read_csv(file_path)
+
+df = pd.read_csv('Google_Stock_Price_Train.csv')
 
 # Extract the 'Open' column (you can replace this with another column if needed)
 data = df['Open'].values
@@ -42,8 +42,9 @@ plt.figure(figsize=(10, 5))
 plt.stem(acf_result[:36], use_line_collection=True)  # Plot only the first 36 lags
 plt.xlabel('Lag')
 plt.ylabel('Autocorrelation')
-plt.title('Autocorrelation Function (ACF) of Netflix Stock Prices')
+plt.title('Autocorrelation Function (ACF) of Google Stock Prices')
 plt.show()
+
 ```
 
 ### OUTPUT:
