@@ -1,4 +1,6 @@
 # Ex.No: 03   COMPUTE THE AUTO FUNCTION(ACF)
+## DEVELOPED BY : Kishore S
+## REG NO : 212222240050
 Date: 
 
 ### AIM:
